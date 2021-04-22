@@ -18,3 +18,7 @@ Source: https://github.com/ultralytics/yolov5/wiki/Docker-Quickstart#1-install-d
 # Test api via curl  
   1. cd yolov5-restAPI
   2. curl -X POST -F image=@tests/guns.jpg 'http://localhost:5000/v1/gun-detection/yolov5'
+
+# Download weights  
+  1. pip install gdown
+  2. gdown https://drive.google.com/uc?id=1I3PSAy2dzQcK6oEcoeIa7dD3IfbUpZHN
